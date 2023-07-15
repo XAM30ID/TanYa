@@ -1,0 +1,266 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+
+@font-face {
+	font-family: 'Yahfie'; 
+	src: url("../fonts/20686.ttf"); 
+}
+
+body {
+	background-image: url("../images/bg.png");
+	background-position:top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	font-family: Yahfie;
+	font-size: 4.5vh;
+}
+
+.mainBlur {
+	width: 100%;
+	text-align: center;
+}
+
+.mainBlurCol {
+	background: rgba(0, 0, 0, .8);
+	width: 70vw;
+	backdrop-filter: blur(10px);
+	padding: 3vh 3vw 0;
+	margin: 0 auto;
+}
+
+.sakuraImg {
+	
+}
+
+.title {
+	font-size: 7vh;
+}
+
+.firstImg {
+	width: 25vw;
+	padding-bottom: 2vh;
+}
+
+.sakuraWords {
+	text-align: right;
+	font-size: 3.5vh;
+	width: 20vw;
+}
+
+Section {
+	position: relative;
+	margin-top: 7vh;
+}
+
+Section:first-child {
+	margin-top: 2vh;
+}
+
+.sakuraWordsDiv {
+	position: absolute;
+	text-align: right;
+	right: 1vw;
+	top: 10vh;
+}
+
+.partyWords {
+	padding: 0 5vw;
+}
+
+.secondImg {
+	padding-bottom: 2vh;
+}
+
+.wishesWords {
+	padding: 0 5vw;
+}
+
+.Im {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 15vw;
+}
+
+.happ {
+	position: absolute;
+	top: 0;
+	right: 1vw;
+}
+
+.emilImg {
+	width: 40vw;
+	padding-bottom: 2vh;
+}
+
+.herWords {
+	padding: 0 5vw;
+}
+
+.eyesImg {
+	position: absolute;
+	top: -5vh;
+	left: 10vw;
+	width: 23vw;
+}
+
+.fourthImg {
+	padding-bottom: 2vh;
+}
+
+.thanksText {
+	padding: 0 5vw;
+}
+
+.thanksImg {
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+
+.my1 {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.finalImage {
+	padding-bottom: 2vh;
+}
+
+.finalText {
+	padding: 0 5vw;
+	  z-index: 100;
+}
+
+.finalChapter {
+	width: 25vw;
+	position: absolute;
+	top: -5vh;
+	right: 2vw;
+}
+
+.withYou {
+	position: absolute;
+	top: 0;
+	left: -2vw;
+}
+
+
+@media (max-width : 1080px ) {
+	
+	body {
+		background-repeat: repeat;
+		font-size: 4vw;
+	}
+	
+	.mainBlurCol {
+		width: 80vw;
+		padding: 1.5vh 3vw 0;
+	}
+	
+	.title {
+		font-size: 3vh;
+	}
+
+	.firstImg {
+		width: 40vw;
+		margin-top: 2vh;
+	}
+
+	.sakuraWords {
+		font-size: 1.5vh;
+		width: 20vw;
+	}
+
+	Section {
+		margin-top: 3vh;
+	}
+
+	Section:first-child {
+		margin-top: 1vh;
+	}
+
+	.sakuraWordsDiv {
+		right: 0vw;
+		top: 8vh;
+	}
+	
+	.sakuraImg {
+		width: 15vw;
+	}
+	
+	.partyWords {
+		padding: 0 5vw;
+	}
+
+	.secondImg {
+		padding-bottom: 2vh;
+		width: 50vw;
+	}
+
+	.Im {
+		left: -2vw;
+		width: 20vw;
+	}
+
+	.happ {
+		right: 7vw;
+		width: 15vw;
+	}
+
+	.emilImg {
+		width: 50vw;
+		padding-bottom: 2vh;
+	}
+	
+	.eyesImg {
+		top: -2vh;
+		left: 12vw;
+		width: 27vw;
+	}
+
+	.fourthImg {
+		padding-bottom: 2vh;
+		width: 50vw;	
+	}
+
+	.thanksImg {
+		top: 0;
+		right: 0;
+		width: 25vw;
+	}
+
+	.my1 {
+		top: 0;
+		left: 0;
+		width: 25vw;
+	}
+
+	.finalImage {
+		padding-bottom: 2vh;
+		width: 60vw;
+	}
+
+	.finalChapter {
+		width: 27vw;
+		top: 0vh;
+	}
+
+	.withYou {
+		top: 0;
+		left: -2vw;
+		width: 28vw;
+	}
+	
+}
