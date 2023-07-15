@@ -197,7 +197,7 @@ Section:first-child {
 	}
 	
 	.sakuraImg {
-		width: 15vw;
+		width: 18vw;
 	}
 	
 	.partyWords {
@@ -210,13 +210,13 @@ Section:first-child {
 	}
 
 	.Im {
-		left: -2vw;
-		width: 20vw;
+		left: -3vw;
+		width: 23vw;
 	}
 
 	.happ {
 		right: 7vw;
-		width: 15vw;
+		width: 18vw;
 	}
 
 	.emilImg {
@@ -225,9 +225,9 @@ Section:first-child {
 	}
 	
 	.eyesImg {
-		top: -2vh;
-		left: 12vw;
-		width: 27vw;
+		top: -2.5vh;
+		left: 10vw;
+		width: 30vw;
 	}
 
 	.fourthImg {
@@ -236,15 +236,15 @@ Section:first-child {
 	}
 
 	.thanksImg {
-		top: 0;
+		top: -2vh;
 		right: 0;
-		width: 25vw;
+		width: 30vw;
 	}
 
 	.my1 {
-		top: 0;
+		top: 3vh;
 		left: 0;
-		width: 25vw;
+		width: 30vw;
 	}
 
 	.finalImage {
@@ -253,14 +253,14 @@ Section:first-child {
 	}
 
 	.finalChapter {
-		width: 27vw;
-		top: 0vh;
+		width: 30vw;
+		top: -2vh;
 	}
 
 	.withYou {
-		top: 0;
+		top: -2vh;
 		left: -2vw;
-		width: 28vw;
+		width: 30vw;
 	}
 	
 }
